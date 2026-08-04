@@ -1,0 +1,110 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #14161b;
+}
+
+.title {
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.stat-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: #23326e;
+}
+
+.stat-value {
+    font-size: 34px;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 15px;
+    color: #8a8f9a;
+}
+
+
+.steps {
+    color: #4caf50;
+}
+
+.bpm {
+    color: #ff5b6e;
+}
+
+.kcal {
+    color: #ff9800;
+}
+
+.dist {
+    color: #5b9dff;
+}
+
+
+/*Checks the value for minimum height of the display area on the application page.*/
+
+@media screen and (min-height: 454px) {
+    .stat-card {
+        background-color: wheat;
+    }
+
+    .kcal {
+        color: darkred;
+    }
+}
+
+/*Checks the value for minimum height of the display area on the application page.*/
+
+@media screen and (min-height: 454px) {
+    .stat-card {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*Checks minimum ratio of the width to the height of the display area on the application page.*/
+
+@media screen and (min-aspect-ratio: 1/2) {
+    .steps {
+        color: blue;
+    }
+}
+
+/*Checks maximum ratio of the width to the height of the display area on the application page.*/
+
+@media screen and (max-aspect-ratio: 1) {
+    .title {
+        color: yellow;
+    }
+}
+
+/*Checks if the screen is rectangle*/
+
+@media screen and (round-screen: false) {
+    .stat-card {
+        border-radius: 0px;
+    }
+
+    .title {
+        color: deeppink;
+        font-size: 30px;
+    }
+}
+

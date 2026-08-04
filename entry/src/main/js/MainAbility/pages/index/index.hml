@@ -1,0 +1,34 @@
+<swiper class="swiper" loop="true">
+
+    <div class="page">
+        <text class="title">Steps</text>
+        <div class="stat-card">
+            <text class="stat-value steps">{{ steps }}</text>
+            <text class="stat-label">{{ stepsLabel }}</text>
+        </div>
+
+    </div>
+    <div class="page">
+        <text class="title">Hearth Rate</text>
+        <div class="stat-card">
+            <text class="stat-value bpm">{{ bpm }}</text>
+            <text class="stat-label">{{ bpmLabel }}</text>
+        </div>
+    </div>
+    <div class="page">
+        <text class="title">Calories</text>
+        <div class="stat-card">
+            <text class="stat-value kcal">{{ kcal }}</text>
+            <text class="stat-label">{{ kcalLabel }}</text>
+        </div>
+    </div>
+    <div class="page">
+        <text class="title">Distance</text>
+        <div class="stat-card">
+            <text class="stat-value dist">{{ dist }}</text>
+            <text class="stat-label">{{ distLabel }}</text>
+        </div>
+    </div>
+
+
+</swiper>
