@@ -2,7 +2,7 @@
 
 # How To Use Mediaquery
 
-This application(how-to-use-media-query) shows you how to use CSS media queries in a HarmonyOS lite wearable app to adapt a single layout to different devices based on screen shape, size and other device characteristics.
+This application(how-to-use-media-query) shows you how to use CSS media queries in a HarmonyOS SportWatch app to adapt a single layout to different devices based on screen shape, size and other device characteristics.
 
 # Preview
 <p>
